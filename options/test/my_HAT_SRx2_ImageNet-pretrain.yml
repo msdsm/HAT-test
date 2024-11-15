@@ -8,16 +8,16 @@ datasets:
   test_1:  # the 1st test dataset
     name: magictime_ZxCL-iUkAk4_0008
     type: PairedImageDataset
-    dataroot_gt: /mnt/data/users/masuda/video/raw-iamges-128/magictime_ZxCL-iUkAk4_0008
-    dataroot_lq: /mnt/data/users/masuda/video/raw-iamges-64/magictime_ZxCL-iUkAk4_0008
+    dataroot_gt: /mnt/data/users/masuda/video/raw-images-128/magictime_ZxCL-iUkAk4_0008
+    dataroot_lq: /mnt/data/users/masuda/video/raw-images-64/magictime_ZxCL-iUkAk4_0008
     io_backend:
       type: disk
 
   test_2:  # the 2nd test dataset
     name: magictime_zzkkDrK7hH4
     type: PairedImageDataset
-    dataroot_gt: /mnt/data/users/masuda/video/raw-iamges-128/magictime_zzkkDrK7hH4
-    dataroot_lq: /mnt/data/users/masuda/video/raw-iamges-64/magictime_zzkkDrK7hH4
+    dataroot_gt: /mnt/data/users/masuda/video/raw-images-128/magictime_zzkkDrK7hH4
+    dataroot_lq: /mnt/data/users/masuda/video/raw-images-64/magictime_zzkkDrK7hH4
     io_backend:
       type: disk
 
